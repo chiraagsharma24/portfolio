@@ -1,10 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Download, Send, Github, Linkedin, Mail } from 'lucide-react';
 import Button from '../ui/Button';
 import AnimatedText from '../ui/AnimatedText';
 
 const Hero: React.FC = () => {
+  const [isLoading, setIsLoading] = useState(false);
+  const resumeUrl = '/Chirag_Sharma_Resume.pdf';
+
+  const handleDownload = async () => {
+    try {
+      setIsLoading(true);
+      const response = await fetch(resumeUrl);
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'Chirag_Sharma_Resume.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error('Error downloading resume:', error);
+      alert('Failed to download resume. Please try again.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   const socialLinks = [
     { icon: <Github size={24} />, url: 'https://github.com/chiraagsharma24', label: 'GitHub' },
     { icon: <Linkedin size={24} />, url: 'https://www.linkedin.com/in/chirag-sharma-365703226', label: 'LinkedIn' },
@@ -94,8 +118,9 @@ const Hero: React.FC = () => {
               <Button 
                 variant="primary" 
                 icon={<Download size={18} />}
+                onClick={handleDownload}
               >
-                Download Resume
+                {isLoading ? 'Downloading...' : 'Download Resume'}
               </Button>
               
               <Button 

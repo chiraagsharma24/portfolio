@@ -62,7 +62,7 @@ const ContactForm: React.FC = () => {
           name="name"
           required
           className="w-full bg-background-tertiary border border-background-tertiary rounded-lg p-3 text-text-primary focus:outline-none focus:ring-2 focus:ring-accent-blue transition-all"
-          placeholder="John Doe"
+          placeholder="Your Name"
         />
       </div>
       
@@ -76,7 +76,7 @@ const ContactForm: React.FC = () => {
           name="email"
           required
           className="w-full bg-background-tertiary border border-background-tertiary rounded-lg p-3 text-text-primary focus:outline-none focus:ring-2 focus:ring-accent-blue transition-all"
-          placeholder="john@example.com"
+          placeholder="Your Email ID"
         />
       </div>
       
