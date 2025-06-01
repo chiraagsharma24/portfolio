@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
         
         <div className="mt-8 pt-6 border-t border-background-tertiary text-center">
           <p className="text-text-tertiary text-sm">
-            &copy; {currentYear} Chirag Sharma. All rights reserved.
+            &copy; {currentYear} Chirag Sharma and Priyansh Batish. All rights reserved.
           </p>
         </div>
       </div>
