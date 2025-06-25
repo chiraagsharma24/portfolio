@@ -7,7 +7,7 @@ import AnimatedText from '../ui/AnimatedText';
 const Contact: React.FC = () => {
   const socialLinks = [
     { icon: <Github size={24} />, url: 'https://github.com/chiraagsharma24', label: 'GitHub' },
-    { icon: <Linkedin size={24} />, url: 'https://www.linkedin.com/in/chirag-sharma-365703226', label: 'LinkedIn' },
+    { icon: <Linkedin size={24} />, url: 'https://www.linkedin.com/in/chiragsharma-dev', label: 'LinkedIn' },
     { icon: <Mail size={24} />, url: 'mailto:chiragnoida3345@gmail.com', label: 'Email' },
     { icon: <Send size={24} /> , url : 'https://t.me/chiraagsharmaa' , label:'Telegram'},
   ];

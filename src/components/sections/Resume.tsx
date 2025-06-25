@@ -153,7 +153,7 @@ const Resume: React.FC = () => {
                   GitHub Profile
                 </a>
                 <a 
-                  href="https://www.linkedin.com/in/chirag-sharma-365703226" 
+                  href="https://www.linkedin.com/in/chiragsharma-dev"
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-accent-blue hover:underline text-sm sm:text-base"
