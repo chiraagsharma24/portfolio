@@ -22,7 +22,7 @@ export const experiences: Experience[] =
     "period": "2023 - 2027",
     "description": [
       "Secured AIR 28309 in JEE Mains to gain admission.",
-      "Currently maintaining a CGPA of 8.42.",
+      "Currently maintaining a CGPA of 8.46.",
       "Active in technical projects and coding initiatives."
     ],
     "link": "https://iiitvadodara.ac.in"

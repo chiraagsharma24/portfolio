@@ -12,7 +12,7 @@ const Resume: React.FC = () => {
   const [numPages, setNumPages] = useState<number | null>(null);
   const [pageNumber, setPageNumber] = useState(1);
   const [pdfWidth, setPdfWidth] = useState(0);
-  const resumeUrl = '/Chirag_Sharma_Resume.pdf';
+  const resumeUrl = '/Chirag_Sharma_Resum.pdf';
 
   const handleDownload = async () => {
     try {
