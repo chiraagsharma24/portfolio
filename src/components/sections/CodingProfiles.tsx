@@ -10,7 +10,7 @@ const CodingProfiles: React.FC = () => {
     <section id="coding" className="section-container bg-background-primary py-12 sm:py-16">
       <div className="container-custom mx-auto px-4 sm:px-6">
         <div className="text-center mb-8 sm:mb-12">
-          <h2 className="section-title text-3xl sm:text-4xl md:text-5xl">
+          <h2 className="section-title text-3xl sm:text-4xl md:text-5xl md:leading-normal">
             <AnimatedText text="Coding Profiles" />
           </h2>
           <p className="text-text-secondary max-w-2xl mx-auto text-sm sm:text-base mt-3">
