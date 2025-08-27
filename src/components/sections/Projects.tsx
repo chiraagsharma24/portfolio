@@ -32,7 +32,7 @@ const Projects: React.FC = () => {
       <div className="container-custom mx-auto px-4 sm:px-6">
         {/* Title & Description */}
         <div className="text-center mb-8 sm:mb-12">
-          <h2 className="section-title text-3xl sm:text-4xl md:text-5xl">
+          <h2 className="section-title text-3xl sm:text-4xl md:text-5xl md:leading-normal">
             <AnimatedText text="My Projects" />
           </h2>
           <p className="text-text-secondary max-w-2xl mx-auto text-sm sm:text-base mt-3">
