@@ -60,11 +60,11 @@ const Hero: React.FC = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-3 sm:mb-4 leading-snug sm:leading-[1.3] pb-1 overflow-visible">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl md:leading-normal font-bold mb-2 sm:mb-4 leading-snug sm:leading-[1.3] pb-1 overflow-visible">
   <AnimatedText text="Chirag Sharma" className="gradient-text" />
 </h1>
 
-            <h2 className="text-xl sm:text-2xl md:text-3xl text-text-secondary font-medium mb-3 sm:mb-4">
+            <h2 className="mt-10 text-xl sm:text-2xl md:text-3xl text-text-secondary font-medium mb-3 sm:mb-4">
               <AnimatedText
                 text="Full Stack Developer"
                 delay={0.2}
